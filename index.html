@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHYAN | AI & Data Science Engineer</title>
+    <meta name="description" content="Personal portfolio of Dhyan Shaji, an aspiring AI & Data Science Engineer.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Antigravity Canvas Background -->
+    <canvas id="antigravity-canvas"></canvas>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="logo">DHYAN.</div>
+        <div class="nav-right">
+            <button id="open-login-btn" class="btn btn-outline" style="margin-right: 1rem;">Login</button>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/dhyan-shaji-43017331a" target="_blank" aria-label="LinkedIn"
+                    style="padding: 0; overflow: hidden;">
+                    <img src="linkin.jpg" alt="LinkedIn Profile" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                <a href="#" target="_blank" aria-label="Instagram" style="padding: 0; overflow: hidden;">
+                    <img src="insta3.png" alt="Instagram Profile" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                <a href="#" target="_blank" aria-label="X" style="padding: 0; overflow: hidden;">
+                    <img src="x.png" alt="X Profile" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+
+        <!-- Hero Section -->
+        <section class="hero reveal">
+            <div class="floating-badge">
+                <span class="badge-text">Oops, page not found? Just kidding. Welcome to my space.</span>
+                <a href="Profile.pdf" target="_blank" class="badge-link">Explore Work <i
+                        data-lucide="arrow-right"></i></a>
+            </div>
+            <h1 class="hero-title">DHYAN</h1>
+        </section>
+
+        <!-- Main Profile Card -->
+        <section class="profile-section reveal reveal-delay-1">
+            <div class="glass-card main-card">
+                <h2 class="card-title typing-container" id="typewriter-title"></h2>
+                <p class="card-intro">Aspiring Artificial Intelligence and Data Science engineer specializing in
+                    building intelligent, scalable solutions.</p>
+                <div class="card-actions">
+                    <a href="Profile.pdf" target="_blank" class="btn btn-primary">View Resume <i
+                            data-lucide="arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content glass-card">
+            <button id="close-login-btn" class="close-btn"><i data-lucide="x"></i></button>
+            <h2 class="card-title" style="font-size: 2rem; margin-bottom: 0.5rem;">Welcome Back</h2>
+            <p class="card-intro" style="font-size: 0.9rem; margin-bottom: 2rem;">Sign in to continue to your dashboard.
+            </p>
+
+            <div class="social-login-options">
+                <a href="#" class="social-login-btn btn-instagram">
+                    <i data-lucide="instagram"></i> Continue with Instagram
+                </a>
+                <a href="#" class="social-login-btn btn-linkedin">
+                    <i data-lucide="linkedin"></i> Continue with LinkedIn
+                </a>
+                <a href="#" class="social-login-btn btn-x">
+                    <i data-lucide="twitter"></i> Continue with X
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Grid -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <!-- Column 1 -->
+            <div class="footer-col reveal">
+                <h3 class="footer-heading">Education</h3>
+                <ul class="footer-list">
+                    <li>
+                        <strong>REVA University</strong>
+                        <span>B.Tech in Artificial Intelligence and Data Science (2025 - 2029)</span>
+                    </li>
+                    <li>
+                        <strong>St Claret PU College</strong>
+                        <span>Computer Science (2023)</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="footer-col reveal reveal-delay-1">
+                <h3 class="footer-heading">Top Skills</h3>
+                <ul class="footer-list skills-list">
+                    <li>AI Engineering</li>
+                    <li>Machine Learning</li>
+                    <li>Data Science</li>
+                    <li>Computer Science</li>
+                </ul>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="footer-col reveal reveal-delay-2">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-list link-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="mailto:dhyan02007@gmail.com">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/dhyan-shaji-43017331a" target="_blank">LinkedIn Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 Dhyan Shaji. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/dhyan-shaji-43017331a" target="_blank" aria-label="LinkedIn"
+                    style="padding: 0; overflow: hidden;">
+                    <img src="linkin.jpg" alt="LinkedIn Profile" style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+                <a href="#" target="_blank" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+    <script src="antigravity.js"></script>
+</body>
+
+</html>
